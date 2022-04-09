@@ -38,8 +38,6 @@ int main() {
 			c = '_';
 		}
 
-		cout << c << endl;
-
 		out_file << c;
 
 	}
