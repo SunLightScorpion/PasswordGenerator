@@ -15,8 +15,6 @@ int main() {
 
 	ofstream out_file;
 
-	cout << sizeof(chars) << endl;
-
 	out_file.open("pass.txt");
 
 	cin >> lenght;
