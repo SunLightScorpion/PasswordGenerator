@@ -15,7 +15,7 @@ int main() {
 
 	ofstream out_file;
 
-	out_file.open("pass.txt");
+	out_file.open("pass.txt", std::ofstream::app);
 
 	cin >> lenght;
 
@@ -41,6 +41,8 @@ int main() {
 		out_file << c;
 
 	}
+
+	out_file << "\n";
 
 	cout << "Done!" << endl;
 
