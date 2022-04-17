@@ -29,7 +29,7 @@ int main() {
 
 	srand(time(NULL));
 
-	for (int i = 1; i < lenght; i++) {
+	for (int i = 1; i < lenght + (1); i++) {
 
 		rNumber = rand() % 65;
 		char c = chars[rNumber];
