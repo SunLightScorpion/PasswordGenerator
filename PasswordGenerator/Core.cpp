@@ -27,7 +27,7 @@ int main() {
 		lenght = 100;
 	}
 
-	srand(time(NULL));
+	srand(time(nullptr));
 
 	for (int i = 1; i < lenght + (1); i++) {
 
@@ -46,7 +46,9 @@ int main() {
 
 	cout << "Done!" << endl;
 
+    #ifdef _WIN32
 	system("pause");
+    #endif
 
 	return 0;
 }
